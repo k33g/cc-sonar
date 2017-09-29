@@ -5,7 +5,7 @@
 
 ```
 CC_PRE_BUILD_HOOK=./install.sh
-CC_PRE_RUN_HOOK=./run.sh
+SHELL_SCRIPT=./sonarqube-6.5/bin/linux-x86-64/sonar.sh start
 ```
 
 - application flavor: Java + jar
