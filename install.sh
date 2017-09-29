@@ -17,5 +17,5 @@ sonar.path.data=/app/storage/data
 sonar.path.temp=/app/storage/temp
 EOF
 
-mkdir /app/storage/data
-mkdir /app/storage/temp
+mkdir -p /app/storage/data
+mkdir -p /app/storage/temp
