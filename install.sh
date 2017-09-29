@@ -13,4 +13,9 @@ mv sonarqube-6.5/conf/sonar.properties sonarqube-6.5/conf/sonar.properties.old
 # === sonar.properties file ===
 cat > sonarqube-6.5/conf/sonar.properties << EOF
 sonar.web.port=8080
+sonar.path.data=/app/storage/data
+sonar.path.temp=/app/storage/temp
 EOF
+
+mkdir /app/storage/data
+mkdir /app/storage/temp
